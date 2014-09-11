@@ -1,0 +1,26 @@
+/**
+ *	Project		:	Getting Started With SASS and Compass
+ *	Date		:	14 September 2014
+ *	Author		:	Tepken Vannkorn
+ *	Author URI	:	http://vannkorn.info
+ */
+.about img {
+  width: 30%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.about ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.about ul li {
+  display: inline-block;
+}
+.about ul li a {
+  font-size: 150%;
+}
