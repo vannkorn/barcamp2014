@@ -4,14 +4,19 @@
  *	Author		:	Tepken Vannkorn
  *	Author URI	:	http://vannkorn.info
  */
- @mixin border-radius( $x ) {
+
+//@import "bootstrap";
+@import "compass/css3";
+
+@mixin border-radius( $x ) {
 	-o-border-radius: $x;
 	-ms-border-radius: $x;
 	-moz-border-radius: $x;
 	-webkit-border-radius: $x;
 	border-radius: $x;
- }
- .about {
+}
+$colorBlack: #333333;
+.about {
 	img {
 		width: 30%;
 		@include border-radius( 50% );
@@ -21,6 +26,7 @@
 		width: 100%;
 		margin: 0;
 		text-align: center;
+		padding-top: 20px;
 		
 		li {
 			display: inline-block;
@@ -30,4 +36,14 @@
 			}
 		}
 	}
- }
+	p {
+		color: $colorBlack;
+		//@include brightness( $colorBlack );
+		font-size: 0.78em;
+	}
+}
+ul.need-space {
+	li {
+		padding-bottom: 30px;
+	}
+}

@@ -46,10 +46,8 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section><!------------------------------------------ Slide ------------------------------>
-					<h3>Getting Started With SASS and Compass</h3>
-					<p>
-						<small>Barcamp Phnom Penh, 13-14 September 2014</small>
-					</p>
+					<h3>Getting Started With</h3>
+					<h1>SASS and Compass</h1>
 				</section>
 				
 				<section data-background="#efefef"><!------------------------------------------ Slide ------------------------------>
@@ -58,45 +56,112 @@
 						<a href="http://vannkorn.info" target="_blank" title="Click to visit my site">
 							<img src="images/profile.jpg" alt="Tepken Vannkorn" />
 						</a>
-						
+						<p>Tepken Vannkorn</p>
+						<p>Web Developer at <a href="http://glean.net" target="_blank">Glean Digital</a></p>
 						<nav class="nav-left st-shape-icon stackicons-font-sample st-multi-color">
 							<ul>
-								<li><a title="Stack Overflow" class="st-icon-stackoverflow" href="http://stackoverflow.com/users/799478/tepken-vannkorn" target="_blank"><span></span>Stack Overflow</a></li>
-								<li><a title="GitHub" class="st-icon-github" href="https://github.com/vannkorn" target="_blank"><span></span>Github</a></li>
-								<li><a title="Twitter" class="st-icon-twitter" href="http://twitter.com/vannkorn" target="_blank">Twitter</a></li>
-								<li><a title="Facebook" class="st-icon-facebook-alt" href="https://www.facebook.com/vannkorn" target="_blank">Facebook</a></li>
-								<li><a title="Gmail" class="st-icon-gmail" href="mailto:vannkorn@gmail.com" target="_blank"><span></span>Email</a></li>
+								<li class="fragment"><a title="Stack Overflow" class="st-icon-stackoverflow" href="http://stackoverflow.com/users/799478/tepken-vannkorn" target="_blank"><span></span>Stack Overflow</a></li>
+								<li class="fragment"><a title="GitHub" class="st-icon-github" href="https://github.com/vannkorn" target="_blank"><span></span>Github</a></li>
+								<li class="fragment"><a title="Twitter" class="st-icon-twitter" href="http://twitter.com/vannkorn" target="_blank">Twitter</a></li>
+								<li class="fragment"><a title="Facebook" class="st-icon-facebook-alt" href="https://www.facebook.com/vannkorn" target="_blank">Facebook</a></li>
+								<li class="fragment"><a title="LinkedIn" class="st-icon-linkedin" href="http://www.linkedin.com/pub/tepken-vannkorn/4a/301/b9a/" target="_blank">LinkedIn</a></li>
+								<li class="fragment"><a title="LinkedIn" class="st-icon-gmail" href="mailto:vannkorn@gmail.com" target="_blank"><span></span>Email</a></li>
 							</ul>
 						</nav>
 					</div>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<img src="images/blackboard.jpg" />
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<img src="images/sass.png" style="width: 20%" />
+					<ul class="need-space">
+						<li class="fragment">Sass is an extension of CSS that adds power and elegance to the basic language</li>
+						<li class="fragment">It allows you to use variables, nested rules, mixins, inline imports, and more</li>
+						<li class="fragment">Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly.</li>
+					</ul>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<img src="images/compass-logo.png" />
+					<ul class="need-space">
+						<li class="fragment">Compass is an open-source CSS Authoring Framework.</li>
+						<li class="fragment">It uses SASS</li>
+					</ul>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<h2>The Origin of SASS and Compass</h2>
+					<ul class="need-space">
+						<li class="fragment">Born on the Ruby on Rails Community</li>
+						<li class="fragment">They both use <a href="http://rubyinstaller.org/downloads/" target="_blank">Ruby Gem</a></li>
+						<li class="fragment">SASS was invented by <a href="http://www.hamptoncatlin.com/" target="_blank">Hampton Catlin</a> and further developed by Nathan Weizenbaum and others</li>
+						<li class="fragment">Compass was created by <a href="http://chriseppstein.github.io/" target="_blank">Chris Eppstein</a></li>
+					</ul>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<h2>Why SASS?</h2>
+					<ul class="need-space">
+						<li class="fragment">Variables</li>
+						<li class="fragment">Mixins</li>
+						<li class="fragment">Nested Rules</li>
+						<li class="fragment">Inline Import,...</li>
+					</ul>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<h2>Why Compass?</h2>
+					<ul class="need-space">
+						<li class="fragment"><a href="http://compass-style.org/reference/compass/css3/" target="_blank">CSS3</a> - cross-browsers CSS3 mixins</li>
+						<li class="fragment"><a href="http://compass-style.org/reference/compass/typography/" target="_blank">Typography</a> - mixins for typography patterns</li>
+						<li class="fragment"><a href="http://compass-style.org/reference/compass/utilities/" target="_blank">Utilities</a> - mixins for common styling patterns</li>
+					</ul>
 				</section>
 				
 				<section><!------------------------------------------ Slide ------------------------------>
-					<img src="images/profile.jpg" alt="Tepken Vannkorn" />
+					<h1>How to Bake?</h1>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h2>Download and Install <a href="http://rubyinstaller.org/downloads/" target="_blank">Ruby Installer</a></h2>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h2>Install Compass</h2>
+					<pre><code contenteditable>
+$ gem install compass
+					</code></pre>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h2>Install SASS</h2>
+					<pre><code contenteditable>
+$ gem install sass
+					</code></pre>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h2>You Can Also Install bootstrap-sass</h2>
+					<pre><code contenteditable>
+$ gem install bootstrap-sass
+					</code></pre>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h1>Demo</h1>
+				</section>
+				
+				<section><!------------------------------------------ Slide ------------------------------>
+					<h2>Where to go?</h2>
+					<ul class="need-space">
+						<li class="fragment"><a href="http://thesassway.com/" target="_blank">The SASS Way</a></li>
+						<li class="fragment"><a href="http://compass-style.org/help/" target="_blank">Compass Documentation</a></li>
+						<li class="fragment"><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html" target="_blank">SASS Lang</a></li>
+						<li class="fragment"><a href="http://reanweb.com/css/manage-maintain-css-effective-way-using-sass-compass/" target="_blank">Getting started with SASS and Compass on my blog</a></li>
+					</ul>
 				</section>
 
 				<section><!------------------------------------------ Slide ------------------------------>

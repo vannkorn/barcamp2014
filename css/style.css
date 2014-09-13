@@ -17,10 +17,19 @@
   width: 100%;
   margin: 0;
   text-align: center;
+  padding-top: 20px;
 }
 .about ul li {
   display: inline-block;
 }
 .about ul li a {
   font-size: 150%;
+}
+.about p {
+  color: #333333;
+  font-size: 0.78em;
+}
+
+ul.need-space li {
+  padding-bottom: 30px;
 }
